@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0180CE23C41EB000C27AA1 /* KeyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0180CD23C41EB000C27AA1 /* KeyEvent.swift */; };
+		1D43BE4623C3C8CE00E377A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE4523C3C8CE00E377A1 /* AppDelegate.swift */; };
+		1D43BE4A23C3C8CF00E377A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D43BE4923C3C8CF00E377A1 /* Assets.xcassets */; };
+		1D43BE5923C3CB5300E377A1 /* RussianTouchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE5823C3CB5300E377A1 /* RussianTouchBarViewController.swift */; };
+		1D43BE5B23C3CC7B00E377A1 /* RussianTouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE5A23C3CC7B00E377A1 /* RussianTouchBar.swift */; };
+		1D43BE7C23C3CD9600E377A1 /* RussianAlphabetTouchBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE7B23C3CD9600E377A1 /* RussianAlphabetTouchBarItem.swift */; };
+		1D43BE7E23C3D0AA00E377A1 /* RussianAlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE7D23C3D0AA00E377A1 /* RussianAlphabetView.swift */; };
+		1D43BE8023C3D0EF00E377A1 /* RussianAlphabetLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE7F23C3D0EF00E377A1 /* RussianAlphabetLetter.swift */; };
+		1D43BE8D23C3D7DB00E377A1 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43BE8B23C3D71D00E377A1 /* DFRFoundation.framework */; };
+		1D43BE8E23C3D7DB00E377A1 /* DFRFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D43BE8B23C3D71D00E377A1 /* DFRFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1D43BE9323C3DC2100E377A1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43BE9223C3DC2100E377A1 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D43BE8F23C3D7DB00E377A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1D43BE8E23C3D7DB00E377A1 /* DFRFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D0180CD23C41EB000C27AA1 /* KeyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyEvent.swift; sourceTree = "<group>"; };
+		1D43BE4223C3C8CE00E377A1 /* Russian Touch Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Russian Touch Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D43BE4523C3C8CE00E377A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D43BE4923C3C8CF00E377A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D43BE5123C3C8CF00E377A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D43BE5223C3C8CF00E377A1 /* RussianTouchBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RussianTouchBar.entitlements; sourceTree = "<group>"; };
+		1D43BE5823C3CB5300E377A1 /* RussianTouchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTouchBarViewController.swift; sourceTree = "<group>"; };
+		1D43BE5A23C3CC7B00E377A1 /* RussianTouchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTouchBar.swift; sourceTree = "<group>"; };
+		1D43BE7B23C3CD9600E377A1 /* RussianAlphabetTouchBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianAlphabetTouchBarItem.swift; sourceTree = "<group>"; };
+		1D43BE7D23C3D0AA00E377A1 /* RussianAlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianAlphabetView.swift; sourceTree = "<group>"; };
+		1D43BE7F23C3D0EF00E377A1 /* RussianAlphabetLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianAlphabetLetter.swift; sourceTree = "<group>"; };
+		1D43BE8123C3D15500E377A1 /* TouchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBar.h; sourceTree = "<group>"; };
+		1D43BE8223C3D1DA00E377A1 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		1D43BE8B23C3D71D00E377A1 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = /System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<absolute>"; };
+		1D43BE9223C3DC2100E377A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D43BE3F23C3C8CE00E377A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D43BE8D23C3D7DB00E377A1 /* DFRFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D43BE3923C3C8CE00E377A1 = {
+			isa = PBXGroup;
+			children = (
+				1D43BE4423C3C8CE00E377A1 /* RussianTouchBar */,
+				1D43BE4323C3C8CE00E377A1 /* Products */,
+				1D43BE8823C3D70B00E377A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D43BE4323C3C8CE00E377A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D43BE4223C3C8CE00E377A1 /* Russian Touch Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D43BE4423C3C8CE00E377A1 /* RussianTouchBar */ = {
+			isa = PBXGroup;
+			children = (
+				1D43BE9223C3DC2100E377A1 /* main.swift */,
+				1D43BE4523C3C8CE00E377A1 /* AppDelegate.swift */,
+				1D43BE5823C3CB5300E377A1 /* RussianTouchBarViewController.swift */,
+				1D43BE5A23C3CC7B00E377A1 /* RussianTouchBar.swift */,
+				1D43BE7B23C3CD9600E377A1 /* RussianAlphabetTouchBarItem.swift */,
+				1D43BE7D23C3D0AA00E377A1 /* RussianAlphabetView.swift */,
+				1D43BE7F23C3D0EF00E377A1 /* RussianAlphabetLetter.swift */,
+				1D0180CD23C41EB000C27AA1 /* KeyEvent.swift */,
+				1D43BE8123C3D15500E377A1 /* TouchBar.h */,
+				1D43BE8223C3D1DA00E377A1 /* Bridge.h */,
+				1D43BE4923C3C8CF00E377A1 /* Assets.xcassets */,
+				1D43BE5123C3C8CF00E377A1 /* Info.plist */,
+				1D43BE5223C3C8CF00E377A1 /* RussianTouchBar.entitlements */,
+			);
+			path = RussianTouchBar;
+			sourceTree = "<group>";
+		};
+		1D43BE8823C3D70B00E377A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D43BE8B23C3D71D00E377A1 /* DFRFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D43BE4123C3C8CE00E377A1 /* Russian Touch Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D43BE5523C3C8CF00E377A1 /* Build configuration list for PBXNativeTarget "Russian Touch Bar" */;
+			buildPhases = (
+				1D43BE3E23C3C8CE00E377A1 /* Sources */,
+				1D43BE3F23C3C8CE00E377A1 /* Frameworks */,
+				1D43BE4023C3C8CE00E377A1 /* Resources */,
+				1D43BE8F23C3D7DB00E377A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Russian Touch Bar";
+			productName = RussianTouchBar;
+			productReference = 1D43BE4223C3C8CE00E377A1 /* Russian Touch Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D43BE3A23C3C8CE00E377A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "262Hz LLC";
+				TargetAttributes = {
+					1D43BE4123C3C8CE00E377A1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D43BE3D23C3C8CE00E377A1 /* Build configuration list for PBXProject "RussianTouchBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D43BE3923C3C8CE00E377A1;
+			productRefGroup = 1D43BE4323C3C8CE00E377A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D43BE4123C3C8CE00E377A1 /* Russian Touch Bar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D43BE4023C3C8CE00E377A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D43BE4A23C3C8CF00E377A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D43BE3E23C3C8CE00E377A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D43BE8023C3D0EF00E377A1 /* RussianAlphabetLetter.swift in Sources */,
+				1D43BE9323C3DC2100E377A1 /* main.swift in Sources */,
+				1D43BE5B23C3CC7B00E377A1 /* RussianTouchBar.swift in Sources */,
+				1D43BE5923C3CB5300E377A1 /* RussianTouchBarViewController.swift in Sources */,
+				1D0180CE23C41EB000C27AA1 /* KeyEvent.swift in Sources */,
+				1D43BE4623C3C8CE00E377A1 /* AppDelegate.swift in Sources */,
+				1D43BE7E23C3D0AA00E377A1 /* RussianAlphabetView.swift in Sources */,
+				1D43BE7C23C3CD9600E377A1 /* RussianAlphabetTouchBarItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D43BE5323C3C8CF00E377A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D43BE5423C3C8CF00E377A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1D43BE5623C3C8CF00E377A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RussianTouchBar/RussianTouchBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RussianTouchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.262hz.RussianTouchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = RussianTouchBar/Bridge.h;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		1D43BE5723C3C8CF00E377A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RussianTouchBar/RussianTouchBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RussianTouchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.262hz.RussianTouchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = RussianTouchBar/Bridge.h;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D43BE3D23C3C8CE00E377A1 /* Build configuration list for PBXProject "RussianTouchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D43BE5323C3C8CF00E377A1 /* Debug */,
+				1D43BE5423C3C8CF00E377A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D43BE5523C3C8CF00E377A1 /* Build configuration list for PBXNativeTarget "Russian Touch Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D43BE5623C3C8CF00E377A1 /* Debug */,
+				1D43BE5723C3C8CF00E377A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D43BE3A23C3C8CE00E377A1 /* Project object */;
+}
